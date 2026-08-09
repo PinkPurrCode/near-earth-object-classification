@@ -1,0 +1,9 @@
+Model,Classification,Count
+Logistic Regression,True Negative,31301
+Logistic Regression,False Positive,9389
+Logistic Regression,False Negative,844
+Logistic Regression,True Positive,6309
+Simplified Random Forest,True Negative,33006
+Simplified Random Forest,False Positive,7684
+Simplified Random Forest,False Negative,1017
+Simplified Random Forest,True Positive,6136
