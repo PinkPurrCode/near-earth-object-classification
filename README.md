@@ -6,6 +6,20 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-pink)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
+## Navigation
+
+- [Executive Summary](#executive-summary)
+- [Project Overview](#project-overview)
+- [Data Sources](#data-sources)
+- [Data Engineering & Quality](#data-engineering--quality)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Machine Learning Approach](#machine-learning-approach)
+- [Model Results](#model-results)
+- [Power BI Dashboard](#power-bi-dashboard)
+- [Key Findings](#key-findings)
+- [Limitations & Future Improvements](#limitations--future-improvements)
+- [Repository Structure](#repository-structure)
+
 ## Executive Summary
 
 This project compares **Logistic Regression** and a **Simplified Random Forest** for classifying potentially hazardous near-Earth objects using physical and orbital characteristics.
