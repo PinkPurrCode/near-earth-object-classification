@@ -139,3 +139,33 @@ This page compares Logistic Regression and the Simplified Random Forest, includi
 ![Model PerformanceA](dashboard/pbi_page_3a.png)
 
 ![Model PerformanceB](dashboard/pbi_page_3b.png)
+
+## Key Findings
+
+The project found that hazardous NEOs showed several measurable differences from non-hazardous objects, including larger estimated diameters, lower absolute magnitude and higher relative velocity.
+
+The model comparison also demonstrated an important performance trade-off. The Simplified Random Forest achieved stronger overall accuracy, precision, F1-score and ROC-AUC, while Logistic Regression achieved the highest recall.
+
+Because missing a hazardous object was considered more serious than incorrectly flagging a non-hazardous object, **Logistic Regression was selected as the preferred model**.
+
+The project also demonstrated that increasing model complexity does not automatically produce a better operational decision. The initial Random Forest substantially overfit the training data and required additional constraints before producing more generalisable performance.
+
+## Limitations & Future Improvements
+
+Several limitations should be considered when interpreting the results:
+
+- Orbital information was available for only **71.53%** of the cleaned primary records, so the machine-learning results apply to the matched subset rather than the full NEO dataset.
+- The matched and unmatched records had different hazardous-object rates, indicating potential selection bias in the supplementary-data coverage.
+- Random Forest settings were adjusted after reviewing test-set performance, meaning the test set influenced model development.
+- Feature importance indicates how strongly the Random Forest used each variable but does not establish a causal relationship with hazardous status.
+- The models are intended as analytical demonstrations and should not replace expert scientific assessment.
+
+Future iterations could:
+
+- use grouped cross-validation or a separate validation dataset for model selection;
+- perform hyperparameter optimisation without using the final test set;
+- investigate methods for modelling NEOs without supplementary orbital data;
+- incorporate additional or more recent asteroid observations;
+- evaluate additional classification and ensemble models;
+- investigate probability thresholds based on the practical cost of false negatives and false positives.
+
