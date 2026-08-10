@@ -156,7 +156,7 @@ A three-page Power BI dashboard was created to communicate the main findings fro
 
 ### Download the Dashboard
 
-[Open the Power BI project file](dashboard/NEO_dashboard.pbix) rename
+[Open the Power BI project file](dashboard/NEO_Dashboard.pbix)
 
 ### Project Overview
 
