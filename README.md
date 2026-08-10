@@ -136,5 +136,5 @@ This page compares physical and orbital characteristics between hazardous and no
 
 This page compares Logistic Regression and the Simplified Random Forest, including model metrics, false negatives and Random Forest feature importance. A bookmark has been used to guide non-technical/non-familiar users in understanding the terminology used in the Feature Importance visual. The user can click the information icon in the bottom left corner of the chart to open a helpful note which provides concise explanations of the terms used, and close it when desired.
 
-![Model PerformanceA](dashboard/pbi_page_3a)
-![Model PerformanceB](dashboard/pbi_page_3b)
+![Model PerformanceA](dashboard/pbi_page_3a.png)
+![Model PerformanceB](dashboard/pbi_page_3b.png)
