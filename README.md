@@ -64,9 +64,9 @@ The supplementary dataset was joined to the primary dataset using a **left join*
 
 **Accuracy** could not be independently verified from the supplied datasets alone, while **timeliness** was less important because the project focused on historical NEO observations.
 
-## Exploratory Analysis
+## Exploratory Data Analysis
 
-Exploratory analysis was used to understand the structure of the data, identify class imbalance and compare the characteristics of hazardous and non-hazardous NEOs.
+Exploratory data analysis was used to understand the structure of the data, identify class imbalance and compare the characteristics of hazardous and non-hazardous NEOs.
 
 Only **12.76%** of records were classified as **hazardous**, showing a clear class imbalance. This made accuracy alone unsuitable as the main evaluation metric and supported the decision to prioritise **recall**, because false negatives represent hazardous objects that the model fails to identify.
 
