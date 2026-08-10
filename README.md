@@ -1,9 +1,9 @@
 # Near-Earth Object Hazard Classification
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Python](https://img.shields.io/badge/Python-3.x-pink)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-pink)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-pink)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-pink)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ## Executive Summary
