@@ -115,3 +115,14 @@ Although the Simplified Random Forest achieved stronger performance across most 
 This was important because the project treated **false negatives as the most serious error**. Logistic Regression missed **844 hazardous objects**, compared with **1,017** for the Simplified Random Forest.
 
 For that reason, **Logistic Regression was selected as the preferred model** for this project.
+
+## Power BI Dashboard
+
+A three-page Power BI dashboard was created to communicate the main findings from the analysis and modelling process.
+
+### Project Overview
+
+This page summarises the dataset, hazardous-object proportion, supplementary-data match rate and the selected model.
+
+![Project Overview](dashboard/pbi_page_1_project_overview.png)
+
