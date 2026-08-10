@@ -152,20 +152,18 @@ The project also demonstrated that increasing model complexity does not automati
 
 ## Limitations & Future Improvements
 
-Several limitations should be considered when interpreting the results:
+### Several limitations should be considered when interpreting the results:
 
 - Orbital information was available for only **71.53%** of the cleaned primary records, so the machine-learning results apply to the matched subset rather than the full NEO dataset.
 - The matched and unmatched records had different hazardous-object rates, indicating potential selection bias in the supplementary-data coverage.
 - Random Forest settings were adjusted after reviewing test-set performance, meaning the test set influenced model development.
 - Feature importance indicates how strongly the Random Forest used each variable but does not establish a causal relationship with hazardous status.
-- The models are intended as analytical demonstrations and should not replace expert scientific assessment.
 
-Future iterations could:
+### Future iterations could:
 
-- use grouped cross-validation or a separate validation dataset for model selection;
-- perform hyperparameter optimisation without using the final test set;
-- investigate methods for modelling NEOs without supplementary orbital data;
-- incorporate additional or more recent asteroid observations;
-- evaluate additional classification and ensemble models;
-- investigate probability thresholds based on the practical cost of false negatives and false positives.
-
+- use grouped cross-validation or a separate validation dataset for model selection
+- perform hyperparameter optimisation without using the final test set
+- investigate methods for modelling NEOs without supplementary orbital data
+- incorporate additional or more recent asteroid observations
+- evaluate additional classification and ensemble models
+- investigate probability thresholds based on the practical cost of false negatives and false positives
