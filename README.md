@@ -124,5 +124,5 @@ A three-page Power BI dashboard was created to communicate the main findings fro
 
 This page summarises the dataset, hazardous-object proportion, supplementary-data match rate and the selected model.
 
-![Project Overview](dashboard/pbi_page_1_project_overview.png)
+![Project Overview](dashboard/pbi_page_1_project_overview)
 
