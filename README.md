@@ -126,3 +126,8 @@ This page summarises the dataset, hazardous-object proportion, supplementary-dat
 
 ![Project Overview](dashboard/pbi_page_1.png)
 
+### NEO Characteristics
+
+This page compares physical and orbital characteristics between hazardous and non-hazardous NEOs.
+
+![NEO Characteristics](dashboard/pbi_page_2.png)
