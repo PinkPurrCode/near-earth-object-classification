@@ -186,14 +186,6 @@ This page compares Logistic Regression and the Simplified Random Forest, includi
 
 ![Model PerformanceB](dashboard/pbi_page_3b.png)
 
-<p align="center">
-  <img src="dashboard/pbi_page_3b.png" width="850">
-</p>
-
-<p align="center">
-  <img src="dashboard/pbi_page_3a.png" width="850">
-</p>
-
 ## Key Findings
 
 The project found that hazardous NEOs showed several measurable differences from non-hazardous objects, including larger estimated diameters, lower absolute magnitude and higher relative velocity.
