@@ -20,11 +20,18 @@
 - [Limitations & Future Improvements](#limitations--future-improvements)
 - [Repository Structure](#repository-structure)
 
+## Project Workflow
+
+1. [Data Engineering](notebooks/01_data_engineering.ipynb)
+2. [Exploratory Data Analysis](notebooks/02_exploratory_analysis.ipynb)
+3. [Machine Learning](notebooks/03_machine_learning.ipynb)
+4. [Dashboard Export](notebooks/04_exporting_dashboard_outputs.ipynb)
+
 ## Executive Summary
 
 This project compares **Logistic Regression** and a **Simplified Random Forest** for classifying potentially hazardous near-Earth objects using physical and orbital characteristics.
 
-### Key findings:
+### Key Findings:
 
 - The cleaned primary dataset contained **338,171 NEO records**.
 - Only **12.76%** of records were classified as hazardous, creating a clear class imbalance.
@@ -134,11 +141,22 @@ Although the Simplified Random Forest achieved stronger performance across most 
 
 This was important because the project treated **false negatives as the most serious error**. Logistic Regression missed **844 hazardous objects**, compared with **1,017** for the Simplified Random Forest.
 
-For that reason, **Logistic Regression was selected as the preferred model** for this project.
+### Final Model Recommendation
+Ultimately **Logistic Regression** was selected as the preferred model because it achieved the highest recall at **88.2%**, reducing the number of hazardous objects missed.
+
+### Model Outputs
+
+- [Model comparison results](outputs/model_comparison.csv)
+- [Confusion matrix results](outputs/confusion_matrix_results.csv)
+- [Feature importance results](outputs/feature_importance.csv)
 
 ## Power BI Dashboard
 
 A three-page Power BI dashboard was created to communicate the main findings from the analysis and modelling process.
+
+### Download the Dashboard
+
+[Open the Power BI project file](dashboard/NEO_dashboard.pbix) rename
 
 ### Project Overview
 
@@ -146,11 +164,19 @@ This page summarises the dataset, hazardous-object proportion, supplementary-dat
 
 ![Project Overview](dashboard/pbi_page_1.png)
 
+<p align="center">
+  <img src="dashboard/pbi_page_1.png" width="850">
+</p>
+
 ### NEO Characteristics
 
 This page compares physical and orbital characteristics between hazardous and non-hazardous NEOs.
 
 ![NEO Characteristics](dashboard/pbi_page_2.png)
+
+<p align="center">
+  <img src="dashboard/pbi_page_2.png" width="850">
+</p>
 
 ### Model Performance
 
@@ -159,6 +185,14 @@ This page compares Logistic Regression and the Simplified Random Forest, includi
 ![Model PerformanceA](dashboard/pbi_page_3a.png)
 
 ![Model PerformanceB](dashboard/pbi_page_3b.png)
+
+<p align="center">
+  <img src="dashboard/pbi_page_3b.png" width="850">
+</p>
+
+<p align="center">
+  <img src="dashboard/pbi_page_3a.png" width="850">
+</p>
 
 ## Key Findings
 
@@ -170,7 +204,7 @@ Because missing a hazardous object was considered more serious than incorrectly 
 
 The project also demonstrated that increasing model complexity does not automatically produce a better operational decision. The initial Random Forest substantially overfit the training data and required additional constraints before producing more generalisable performance.
 
-## Limitations & Future Improvements
+## Limitations
 
 ### Several limitations should be considered when interpreting the results:
 
