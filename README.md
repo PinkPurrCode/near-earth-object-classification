@@ -167,3 +167,30 @@ The project also demonstrated that increasing model complexity does not automati
 - incorporate additional or more recent asteroid observations
 - evaluate additional classification and ensemble models
 - investigate probability thresholds based on the practical cost of false negatives and false positives
+
+## Repository Structure
+
+```text
+near-earth-object-classification/
+│
+├── notebooks/
+│   ├── 01_data_engineering.ipynb
+│   ├── 02_exploratory_analysis.ipynb
+│   ├── 03_machine_learning.ipynb
+│   └── 04_exporting_dashboard_outputs.ipynb
+│
+├── dashboard/
+│   ├── 01_project_overview.png
+│   ├── 02_neo_characteristics.png
+│   ├── 03_model_performance.png
+│   └── near_earth_object_classification_dashboard.pbix
+│
+├── outputs/
+│   ├── model_comparison.csv
+│   ├── confusion_matrix_results.csv
+│   └── feature_importance.csv
+│
+├── data/
+├── report/
+├── README.md
+└── .gitignore
