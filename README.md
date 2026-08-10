@@ -99,3 +99,19 @@ The initial Random Forest achieved a training recall of **1.000** but only **0.5
 The resulting **Simplified Random Forest** achieved a test recall of **0.858**, while also improving accuracy, precision, F1-score and ROC-AUC compared with Logistic Regression.
 
 However, **Logistic Regression** achieved the highest recall at **0.882**, so it remained the preferred model where minimising missed hazardous objects was the main priority.
+
+## Model Results
+
+| Metric | Logistic Regression | Simplified Random Forest |
+|---|---:|---:|
+| Accuracy | 78.6% | 81.8% |
+| Precision | 40.2% | 44.4% |
+| Recall | **88.2%** | 85.8% |
+| F1-score | 55.2% | 58.5% |
+| ROC-AUC | 87.8% | **91.9%** |
+
+Although the Simplified Random Forest achieved stronger performance across most metrics, Logistic Regression produced the highest recall.
+
+This was important because the project treated **false negatives as the most serious error**. Logistic Regression missed **844 hazardous objects**, compared with **1,017** for the Simplified Random Forest.
+
+For that reason, **Logistic Regression was selected as the preferred model** for this project.
