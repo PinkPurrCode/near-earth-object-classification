@@ -1,5 +1,7 @@
 # Near-Earth Object Hazard Classification
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+
 ## Executive Summary
 
 This project compares **Logistic Regression** and a **Simplified Random Forest** for classifying potentially hazardous near-Earth objects using physical and orbital characteristics.
